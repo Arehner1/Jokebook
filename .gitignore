@@ -1,0 +1,3 @@
+node_modules/
+db/jokebook.db
+.DS_Store

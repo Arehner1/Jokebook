@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jokebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to the Jokebook</h1>
+
+  <section id="random-joke-section">
+    <h2>Random Joke</h2>
+    <div id="random-joke"></div>
+    <button id="refresh-random">Get Another Random Joke</button>
+  </section>
+
+  <section id="category-section">
+    <h2>Joke Categories</h2>
+    <ul id="category-list"></ul>
+    <input type="text" id="search-category" placeholder="Or enter category name">
+    <button id="search-btn">Search</button>
+  </section>
+
+  <section id="jokes-section">
+    <h2>Jokes</h2>
+    <ul id="joke-list"></ul>
+  </section>
+
+  <section id="add-joke-section">
+    <h2>Add a New Joke</h2>
+    <form id="add-joke-form">
+      <input type="text" id="new-category" placeholder="Category" required />
+      <input type="text" id="new-setup" placeholder="Setup" required />
+      <input type="text" id="new-delivery" placeholder="Delivery" required />
+      <button type="submit">Add Joke</button>
+    </form>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
